@@ -1,0 +1,28 @@
+.hidden {
+    display: none;
+}
+
+form input[type="text"]{
+    color: black;
+}
+
+form input[type="text"]::placeholder {
+    color :black;
+   
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    border-bottom: white 1px solid;
+    margin-top: 10px;
+    margin-right: 650px;
+}
+
+ul li button {
+    float: right;
+}
+
+

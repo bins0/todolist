@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todolist</title>
+    <link rel="stylesheet" href="./css/common.css">
+</head>
+<body>
+   <h1>투두리스트</h1>
+    <!-- 메모와 투두 폼 -->
+    <form id="memo-form">
+        <input type="text" placeholder="할일을입력해주세요" required >
+       
+        <input id="todo-button" type="button" value="+">
+    </form>
+
+    <!-- 투두 보드 -->
+    <ul class="todo" id="todo-board"></ul>
+    
+    <p id ="complete"></p>
+   
+    <script src="./js/todolist.js"></script>
+</body>
+</html>
